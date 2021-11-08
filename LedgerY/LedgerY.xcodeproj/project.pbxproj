@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1C58E9B2739216D004BAA01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C58E9A2739216D004BAA01 /* AppDelegate.swift */; };
+		C1C58E9D2739216D004BAA01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C58E9C2739216D004BAA01 /* SceneDelegate.swift */; };
+		C1C58E9F2739216D004BAA01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C58E9E2739216D004BAA01 /* ViewController.swift */; };
+		C1C58EA22739216D004BAA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C58EA02739216D004BAA01 /* Main.storyboard */; };
+		C1C58EA427392170004BAA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C58EA327392170004BAA01 /* Assets.xcassets */; };
+		C1C58EA727392170004BAA01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C58EA527392170004BAA01 /* LaunchScreen.storyboard */; };
+		C1C58EB227392170004BAA01 /* LedgerYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C58EB127392170004BAA01 /* LedgerYTests.swift */; };
+		C1C58EBD27392170004BAA01 /* LedgerYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C58EBC27392170004BAA01 /* LedgerYUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1C58EAE27392170004BAA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C58E8F2739216D004BAA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C58E962739216D004BAA01;
+			remoteInfo = LedgerY;
+		};
+		C1C58EB927392170004BAA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C58E8F2739216D004BAA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C58E962739216D004BAA01;
+			remoteInfo = LedgerY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1C58E972739216D004BAA01 /* LedgerY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LedgerY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C58E9A2739216D004BAA01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1C58E9C2739216D004BAA01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1C58E9E2739216D004BAA01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1C58EA12739216D004BAA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1C58EA327392170004BAA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1C58EA627392170004BAA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1C58EA827392170004BAA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C58EAD27392170004BAA01 /* LedgerYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedgerYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C58EB127392170004BAA01 /* LedgerYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerYTests.swift; sourceTree = "<group>"; };
+		C1C58EB327392170004BAA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C58EB827392170004BAA01 /* LedgerYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedgerYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C58EBC27392170004BAA01 /* LedgerYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerYUITests.swift; sourceTree = "<group>"; };
+		C1C58EBE27392170004BAA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1C58E942739216D004BAA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C58EAA27392170004BAA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C58EB527392170004BAA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1C58E8E2739216D004BAA01 = {
+			isa = PBXGroup;
+			children = (
+				C1C58E992739216D004BAA01 /* LedgerY */,
+				C1C58EB027392170004BAA01 /* LedgerYTests */,
+				C1C58EBB27392170004BAA01 /* LedgerYUITests */,
+				C1C58E982739216D004BAA01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1C58E982739216D004BAA01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C58E972739216D004BAA01 /* LedgerY.app */,
+				C1C58EAD27392170004BAA01 /* LedgerYTests.xctest */,
+				C1C58EB827392170004BAA01 /* LedgerYUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1C58E992739216D004BAA01 /* LedgerY */ = {
+			isa = PBXGroup;
+			children = (
+				C1C58E9A2739216D004BAA01 /* AppDelegate.swift */,
+				C1C58E9C2739216D004BAA01 /* SceneDelegate.swift */,
+				C1C58E9E2739216D004BAA01 /* ViewController.swift */,
+				C1C58EA02739216D004BAA01 /* Main.storyboard */,
+				C1C58EA327392170004BAA01 /* Assets.xcassets */,
+				C1C58EA527392170004BAA01 /* LaunchScreen.storyboard */,
+				C1C58EA827392170004BAA01 /* Info.plist */,
+			);
+			path = LedgerY;
+			sourceTree = "<group>";
+		};
+		C1C58EB027392170004BAA01 /* LedgerYTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C58EB127392170004BAA01 /* LedgerYTests.swift */,
+				C1C58EB327392170004BAA01 /* Info.plist */,
+			);
+			path = LedgerYTests;
+			sourceTree = "<group>";
+		};
+		C1C58EBB27392170004BAA01 /* LedgerYUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C58EBC27392170004BAA01 /* LedgerYUITests.swift */,
+				C1C58EBE27392170004BAA01 /* Info.plist */,
+			);
+			path = LedgerYUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1C58E962739216D004BAA01 /* LedgerY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C58EC127392170004BAA01 /* Build configuration list for PBXNativeTarget "LedgerY" */;
+			buildPhases = (
+				C1C58E932739216D004BAA01 /* Sources */,
+				C1C58E942739216D004BAA01 /* Frameworks */,
+				C1C58E952739216D004BAA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LedgerY;
+			productName = LedgerY;
+			productReference = C1C58E972739216D004BAA01 /* LedgerY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1C58EAC27392170004BAA01 /* LedgerYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C58EC427392170004BAA01 /* Build configuration list for PBXNativeTarget "LedgerYTests" */;
+			buildPhases = (
+				C1C58EA927392170004BAA01 /* Sources */,
+				C1C58EAA27392170004BAA01 /* Frameworks */,
+				C1C58EAB27392170004BAA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C58EAF27392170004BAA01 /* PBXTargetDependency */,
+			);
+			name = LedgerYTests;
+			productName = LedgerYTests;
+			productReference = C1C58EAD27392170004BAA01 /* LedgerYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1C58EB727392170004BAA01 /* LedgerYUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C58EC727392170004BAA01 /* Build configuration list for PBXNativeTarget "LedgerYUITests" */;
+			buildPhases = (
+				C1C58EB427392170004BAA01 /* Sources */,
+				C1C58EB527392170004BAA01 /* Frameworks */,
+				C1C58EB627392170004BAA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C58EBA27392170004BAA01 /* PBXTargetDependency */,
+			);
+			name = LedgerYUITests;
+			productName = LedgerYUITests;
+			productReference = C1C58EB827392170004BAA01 /* LedgerYUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1C58E8F2739216D004BAA01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C1C58E962739216D004BAA01 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C1C58EAC27392170004BAA01 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C1C58E962739216D004BAA01;
+					};
+					C1C58EB727392170004BAA01 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C1C58E962739216D004BAA01;
+					};
+				};
+			};
+			buildConfigurationList = C1C58E922739216D004BAA01 /* Build configuration list for PBXProject "LedgerY" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1C58E8E2739216D004BAA01;
+			productRefGroup = C1C58E982739216D004BAA01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1C58E962739216D004BAA01 /* LedgerY */,
+				C1C58EAC27392170004BAA01 /* LedgerYTests */,
+				C1C58EB727392170004BAA01 /* LedgerYUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1C58E952739216D004BAA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C58EA727392170004BAA01 /* LaunchScreen.storyboard in Resources */,
+				C1C58EA427392170004BAA01 /* Assets.xcassets in Resources */,
+				C1C58EA22739216D004BAA01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C58EAB27392170004BAA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C58EB627392170004BAA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1C58E932739216D004BAA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C58E9F2739216D004BAA01 /* ViewController.swift in Sources */,
+				C1C58E9B2739216D004BAA01 /* AppDelegate.swift in Sources */,
+				C1C58E9D2739216D004BAA01 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C58EA927392170004BAA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C58EB227392170004BAA01 /* LedgerYTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C58EB427392170004BAA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C58EBD27392170004BAA01 /* LedgerYUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1C58EAF27392170004BAA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C58E962739216D004BAA01 /* LedgerY */;
+			targetProxy = C1C58EAE27392170004BAA01 /* PBXContainerItemProxy */;
+		};
+		C1C58EBA27392170004BAA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C58E962739216D004BAA01 /* LedgerY */;
+			targetProxy = C1C58EB927392170004BAA01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1C58EA02739216D004BAA01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C58EA12739216D004BAA01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1C58EA527392170004BAA01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C58EA627392170004BAA01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1C58EBF27392170004BAA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1C58EC027392170004BAA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1C58EC227392170004BAA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YDR7T8879;
+				INFOPLIST_FILE = LedgerY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LedgerY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1C58EC327392170004BAA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YDR7T8879;
+				INFOPLIST_FILE = LedgerY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LedgerY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1C58EC527392170004BAA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YDR7T8879;
+				INFOPLIST_FILE = LedgerYTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LedgerYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LedgerY.app/LedgerY";
+			};
+			name = Debug;
+		};
+		C1C58EC627392170004BAA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YDR7T8879;
+				INFOPLIST_FILE = LedgerYTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LedgerYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LedgerY.app/LedgerY";
+			};
+			name = Release;
+		};
+		C1C58EC827392170004BAA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YDR7T8879;
+				INFOPLIST_FILE = LedgerYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LedgerYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LedgerY;
+			};
+			name = Debug;
+		};
+		C1C58EC927392170004BAA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YDR7T8879;
+				INFOPLIST_FILE = LedgerYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.LedgerYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LedgerY;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1C58E922739216D004BAA01 /* Build configuration list for PBXProject "LedgerY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C58EBF27392170004BAA01 /* Debug */,
+				C1C58EC027392170004BAA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C58EC127392170004BAA01 /* Build configuration list for PBXNativeTarget "LedgerY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C58EC227392170004BAA01 /* Debug */,
+				C1C58EC327392170004BAA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C58EC427392170004BAA01 /* Build configuration list for PBXNativeTarget "LedgerYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C58EC527392170004BAA01 /* Debug */,
+				C1C58EC627392170004BAA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C58EC727392170004BAA01 /* Build configuration list for PBXNativeTarget "LedgerYUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C58EC827392170004BAA01 /* Debug */,
+				C1C58EC927392170004BAA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1C58E8F2739216D004BAA01 /* Project object */;
+}
